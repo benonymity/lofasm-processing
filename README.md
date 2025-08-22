@@ -15,5 +15,12 @@ If you want to use this script, you'll need:
 
 The `server.py` version is designed to use as many resources as are available, have a small storage footprint, and run on it's own for weeks without interuption. We run it on the Hillsdale server. While most of the code should be the same, `local.py` is for running on your local computer.
 
-This code is all designed for Mac; if you want to run on Windows you will need to run it on a Docker VM; it is also much slower. 
+## AI
+
+About 4000 png files are produced every hour; we've begun to train an AI model to sort through the pngs looking for Solar Radio Bursts. 
+
+## Additional Info
+
+This code is all designed for Mac; if you want to run on Windows you will need to run it on a Docker VM which takes a much longer time to process files. 
+
 
